@@ -129,7 +129,3 @@ This project is private and proprietary.
 - [Radix UI](https://www.radix-ui.com/)
 - [shadcn/ui](https://ui.shadcn.com/)
 - [Vercel](https://vercel.com/)
-
----
-
-Made with ❤️ using Next.js and React
