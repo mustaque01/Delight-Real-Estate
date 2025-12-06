@@ -76,9 +76,16 @@ export default function Header() {
               <button className="bg-[#d4a574] text-[#1a3a52] px-5 py-2 rounded font-semibold hover:bg-[#c9945f] transition text-sm">
                 View Listing
               </button>
-              <button className="border border-[#d4a574] text-[#d4a574] px-4 py-2 rounded hover:bg-[#d4a574] hover:text-[#1a3a52] transition font-semibold text-sm">
-                Login
-              </button>
+              <Link href="/signup">
+                <button className="border border-[#d4a574] text-[#d4a574] px-4 py-2 rounded hover:bg-[#d4a574] hover:text-[#1a3a52] transition font-semibold text-sm">
+                  Sign Up
+                </button>
+              </Link>
+              <Link href="/login">
+                <button className="bg-[#d4a574] text-[#1a3a52] px-4 py-2 rounded hover:bg-[#c9945f] transition font-semibold text-sm">
+                  Login
+                </button>
+              </Link>
             </div>
 
             {/* Mobile Menu Button */}
@@ -105,7 +112,14 @@ export default function Header() {
               <button className="w-full bg-[#d4a574] text-[#1a3a52] px-4 py-2 rounded mt-2 font-semibold">
                 View Listing
               </button>
-              <button className="w-full border border-[#d4a574] text-[#d4a574] px-4 py-2 rounded">Login</button>
+              <Link href="/signup">
+                <button className="w-full border border-[#d4a574] text-[#d4a574] px-4 py-2 rounded font-semibold">
+                  Sign Up
+                </button>
+              </Link>
+              <Link href="/login">
+                <button className="w-full bg-[#d4a574] text-[#1a3a52] px-4 py-2 rounded font-semibold">Login</button>
+              </Link>
             </nav>
           )}
         </div>
